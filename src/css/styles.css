@@ -80,7 +80,7 @@ header > h1 {
   font-size: 18px;
 }
 
-section {
+.control-elements {
   background-color: #44a080;
   padding: 1em;
   display: flex;
