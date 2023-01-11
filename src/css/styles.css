@@ -49,6 +49,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   background-color: #279989;
   display: flex;
@@ -56,6 +61,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
+  flex: 1;
 }
 
 nav > ul {
@@ -72,4 +78,19 @@ a {
 
 header > h1 {
   font-size: 18px;
+}
+
+section {
+  background-color: #44a080;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 11px;
+  flex: 1;
+}
+
+i {
+  color: white;
 }
