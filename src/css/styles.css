@@ -100,8 +100,10 @@ i {
 .list-elements {
   background-color: #ffc845;
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   flex: 3;
+  padding: 1em;
 }
 
 .form-section {
@@ -124,4 +126,9 @@ i {
 
 .form-section > form > div {
   padding-bottom: 10px;
+}
+
+.flex-elements {
+  display: flex;
+  justify-content: space-between;
 }
