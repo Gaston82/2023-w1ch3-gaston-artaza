@@ -62,7 +62,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  flex: 1;
+  flex: 0.25;
 }
 
 nav > ul {
@@ -79,6 +79,7 @@ a {
 
 header > h1 {
   font-size: 18px;
+  font-weight: 700;
 }
 
 .control-elements {
@@ -89,7 +90,7 @@ header > h1 {
   justify-content: space-between;
   color: white;
   font-size: 11px;
-  flex: 1;
+  flex: 0.25;
 }
 
 i {
@@ -101,4 +102,26 @@ i {
   display: flex;
   flex-direction: column;
   flex: 3;
+}
+
+.form-section {
+  background-color: #ffc845;
+  flex: 1;
+  padding: 1em;
+}
+
+.form-section input {
+  border: none;
+  height: 40px;
+}
+
+.form-section button {
+  border: none;
+  color: white;
+  background: #279989;
+  padding: 12px;
+}
+
+.form-section > form > div {
+  padding-bottom: 10px;
 }
